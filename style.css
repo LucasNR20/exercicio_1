@@ -1,10 +1,21 @@
+*{
+	margin:  0;	
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body{
 	font-family: 'Montserrat', sans-serif;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 header {
 	background: #BBBBBB;
 	padding: 20px 0;
+	width: 100%;
 }
 
 .caixa {
@@ -15,20 +26,29 @@ header {
 	font-weight: bold;
 }
 
+main {
+	width: 100%;
+	max-width: 700px;
+	}
+
+form {
+	display: flex;
+	flex-direction: column;
+}
+
 
 form label, form legend {
 	display: inline-block;
 	font-size: 20px;
 	margin: 10px 20px 10px;
+	
 }
 
 
 .input-padrao {
-	display: block;
-	margin: 1%;
-	padding: 10px 25px;
-	width: 40%;
-	
+	width: 100%;
+	margin: 0;
+
 }
 
 .container {
